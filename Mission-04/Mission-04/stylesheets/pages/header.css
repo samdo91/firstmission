@@ -115,7 +115,7 @@ header {
 }
 
 .myCoupang button {
-   
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -155,11 +155,48 @@ header {
     font-size: 15px;
     padding: 10px;
     ;
-    
+
 }
 
-.goods{
+.goods {
     text-decoration: none;
     color: black;
 }
-.cart--empty{ border: 1px solid black;}
+
+.cart--empty {
+    border: 1px solid black;
+}
+
+.myCoupang ul {
+    border: 1px solid black;
+    display: none;
+ 
+ 
+
+}
+
+.is--active ul {
+    border: 1px solid black;
+    display: block;
+    display:flex;
+    height: 50px;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-between;
+    list-style: none;
+}
+.cart div { display: none;}
+.cart--empty div{display: block;}
+.cart--empty p{ border: 1px solid gray; 
+        width: 150px;
+    height: 60px ;}
+    .cart--empty span{ position: absolute; 
+        background-color: #0074E9;
+     color: white;
+     border-radius:50%;
+     width: 10px;
+     height: 10px;
+     margin: 0 auto;
+     top: 56px;
+     right: 110px;
+     }
