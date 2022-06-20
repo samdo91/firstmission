@@ -1,0 +1,340 @@
+/* CSS 작성 */
+
+:root {
+    --color-blue-600: #0096E4;
+    --color-red-500: #e52330;
+    --color-green-500: #c7cd1d;
+    --color-gray-500: #c4c4c4;
+    --color-black-600: #181818;
+    --color-white-600: #ffffff;
+}
+
+.logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 100px;
+}
+
+.box1 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    float: left;
+    margin-top: 100px;
+    max-width: 100%;
+    max-height: 100%;
+
+
+}
+
+
+.pic {
+    position: relative;
+    border-style: solid;
+    border-color: var(--color-gray-500);
+
+
+
+}
+
+.pic:hover {
+    border-color: var(--color-red-500);
+}
+
+.picbox a:hover .sold1:after {
+    opacity: 1;
+}
+
+.picbox a:hover .sold2:after {
+    opacity: 1;
+}
+
+.picbox a:hover .sold3:after {
+    opacity: 1;
+}
+
+.picbox a:hover .sold4:after {
+    opacity: 1;
+}
+
+.picbox a:hover .sold5:after {
+    opacity: 1;
+}
+
+.picbox a:hover .sold6:after {
+    opacity: 1;
+}
+
+.picbox a:hover .sold7:after {
+    opacity: 1;
+}
+
+.picbox a:hover .sold8:after {
+    opacity: 1;
+}
+
+.picbox a:hover .sold9:after {
+    opacity: 1;
+}
+
+.pic:focus {
+    border-color: var(--color-red-500);
+}
+
+#heneytea,
+#vaseilne,
+#wettissue {
+    width: 502px;
+    height: 310px;
+}
+
+#handcream,
+#bibs,
+#hanssem,
+#dumpling,
+#febreze,
+#dyson {
+    width: 243px;
+    height: 310px;
+
+}
+
+.sold1   {
+
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    left: 20px;
+    top: 310px;
+    background: rgba(0, 0, 0, 0.2);
+    border-style: hidden;
+
+}
+
+.sold1:after {
+    content: "구매하기>";
+    position: absolute;
+    width: 112px;
+    height: 42px;
+    top: 0;
+    left: 0;
+    background: #0074E9;
+    opacity: 0;
+    line-height: 3;
+    color: white;
+
+}
+
+
+.sold2 {
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    left: 530px;
+    top: 310px;
+    background: rgba(0, 0, 0, 0.2);
+    border-style: hidden;
+
+}
+
+.sold2:after {
+    content: "구매하기>";
+
+    position: absolute;
+    width: 112px;
+    height: 42px;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    line-height: 3;
+    color: white;
+
+    background: #0074E9;
+}
+
+.sold3 {
+
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    left: 20px;
+    top: 630px;
+    background: rgba(0, 0, 0, 0.2);
+    border-style: hidden;
+
+}
+
+.sold3:after {
+    content: "구매하기>";
+    position: absolute;
+    width: 112px;
+    height: 42px;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    line-height: 3;
+    color: white;
+
+    background: #0074E9;
+}
+
+.sold4 {
+
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    left: 280px;
+    top: 630px;
+    background: rgba(0, 0, 0, 0.2);
+    border-style: hidden;
+
+}
+
+.sold4::after {
+    content: "구매하기>";
+    position: absolute;
+    width: 112px;
+    height: 42px;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    line-height: 3;
+    color: white;
+
+    background: #0074E9;
+}
+
+.sold5 {
+
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    left: 540px;
+    top: 630px;
+    background: rgba(0, 0, 0, 0.2);
+    border-style: hidden;
+
+}
+
+.sold5::after {
+    content: "구매하기>";
+    position: absolute;
+    width: 112px;
+    height: 42px;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    line-height: 3;
+    color: white;
+
+
+    background: #0074E9;
+}
+
+.sold6 {
+
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    left: 800px;
+    top: 630px;
+    background: rgba(0, 0, 0, 0.2);
+    border-style: hidden;
+
+}
+
+.sold6::after {
+    content: "구매하기>";
+    position: absolute;
+    width: 112px;
+    height: 42px;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    line-height: 3;
+    color: white;
+
+
+    background: #0074E9;
+}
+
+.sold7 {
+
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    left: 20px;
+    top: 950px;
+    background: rgba(0, 0, 0, 0.2);
+    border-style: hidden;
+
+}
+
+.sold7::after {
+    content: "구매하기>";
+    position: absolute;
+    width: 112px;
+    height: 42px;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    line-height: 3;
+    color: white;
+
+
+    background: #0074E9;
+}
+
+.sold8 {
+
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    left: 540px;
+    top: 950px;
+    background: rgba(0, 0, 0, 0.2);
+    border-style: hidden;
+
+}
+
+.sold8::after {
+    content: "구매하기>";
+    position: absolute;
+    width: 112px;
+    height: 42px;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    line-height: 3;
+    color: white;
+
+    background: #0074E9;
+}
+
+.sold9 {
+
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    left: 800px;
+    top: 950px;
+    background: rgba(0, 0, 0, 0.2);
+    border-style: hidden;
+
+}
+
+.sold9::after {
+    content: "구매하기>";
+    position: absolute;
+    width: 112px;
+    height: 42px;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    line-height: 3;
+    color: white;
+
+
+    background: #0074E9;
+}

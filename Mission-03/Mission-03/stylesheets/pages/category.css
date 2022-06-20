@@ -1,0 +1,232 @@
+/* 카테고리별 추천 광고상품 */
+:root {
+    --color-back: #181818;
+    --color-white: #FFFFFF;
+    --color-gray-100: #F3F3F3;
+    --color-gray-200: #E7E7E7;
+    --color-gray-300: #DCDCDC;
+    --color-gray-400: #D0D0D0;
+    --color-gray-500: #C4C4C4;
+    --color-red-500: #E52330;
+    --color-green-700: #00B599;
+    --base-size: 10px;
+    --color-brown-300: #9D7A6D;
+    --font-family: 'Noto Sans KR', sans-serif;
+    --color-blue-600: #0074E9;
+
+}
+
+
+
+body {
+    box-sizing: border-box;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 100px;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-size: var(--base-size);
+
+}
+
+header {
+    width: 246px;
+    height: 46px;
+}
+
+.box1 {
+    width: 1020px;
+    height: 1376px;
+    margin: 0 auto;
+    font-size: medium;
+}
+
+.houseware {
+    display: flex;
+    position: relative;
+    width: 1022px;
+    height: 634px;
+    border-top: 1px solid;
+    border-bottom: 1px solid brown;
+
+}
+
+.housewarelist {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+}
+
+.pic {
+    width: 160px;
+    height: 300px;
+    left: 510px;
+    top: 9px;
+
+}
+
+.kitchenwar {
+    margin-top: 20px;
+    display: flex;
+    width: 1022px;
+    height: 634px;
+    border-top: 1px solid var(--color-green-700);
+    border-bottom: 1px solid var(--color-green-700)
+}
+
+.kitchenwarelist {
+    display: flex;
+    flex-wrap: wrap;
+    flex: auto;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+}
+
+.carouselpic {
+    width: 320px;
+    height: 631px;
+
+}
+
+.kitchenwartitle {
+    width: 300px;
+}
+
+.housewaretitle {
+    width: 300px;
+}
+
+#lifegoods {
+    color: var(--color-brown-300);
+    width: 100px;
+    height: 28px;
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+
+#buletitle {
+    color: var(--color-green-700);
+    width: 100px;
+    height: 28px;
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+
+#housewarehasy {
+    position: absolute;
+    width: 124px;
+    height: 220px;
+    left: 24px;
+    top: 282px;
+}
+
+#kitchenwarhasy {
+    position: absolute;
+    width: 124px;
+    height: 220px;
+    left: 24px;
+    top: 1132px;
+}
+
+.brown {
+    color: var(--color-brown-300);
+    border: 1px solid var(--color-brown-300);
+    font-size: 12px;
+    display: inline-flex;
+    padding: 4px 12px;
+
+}
+
+.bule {
+    color: var(--color-green-700);
+    border: 1px solid var(--color-green-700);
+    font-size: 12px;
+    display: inline-flex;
+    padding: 4px 12px;
+}
+
+
+.line {
+    position: absolute;
+    width: 535px;
+    border: 0.5px solid #AAA9A9;
+    ;
+    left: 461px;
+    right: 0%;
+    top: 10px;
+}
+
+.line2 {
+    position: absolute;
+    width: 535px;
+    border: 0.5px solid #AAA9A9;
+    left: 488px;
+    right: 0%;
+    top: 1120px;
+}
+
+.carouseltext1 {
+    position: absolute;
+    width: 260px;
+    height: 90px;
+    left: 200px;
+    top: 490px;
+    background-color: var(--color-brown-300);
+    color: white;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    text-align: center;
+}
+
+.carouseltext2 {
+    position: absolute;
+    width: 260px;
+    height: 90px;
+    left: 200px;
+    top: 1320px;
+    background-color: var(--color-green-700);
+    color: white;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    text-align: center;
+}
+
+.butten1 {
+    position: absolute;
+    display: flex;
+    width: 32px;
+    height: 12px;
+    left: 100px;
+    top: 110px;
+}
+
+.butten2 {
+    position: absolute;
+    display: flex;
+    width: 32px;
+    height: 12px;
+    left: 100px;
+    top: 100px;
+}
+
+
+.red {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    color: #E52330;
+
+}
+
+#category{ margin-top: 0px ;}
+#bule{color: var(--color-blue-600);}

@@ -1,0 +1,21 @@
+/* Theme 스타일 작성 */
+
+
+:root{
+    --color-blue-600 : #0096E4 ;
+    --color-red-500 : #e52330;
+    --color-green-500 : #c7cd1d ;
+    --color-gray-500 : #c4c4c4 ;
+    --color-black-600 : #181818 ;
+    --color-white-600 : #ffffff ;
+    
+
+}
+
+.discover{
+    font-size: 24xp;
+    color: var(--color-black-600)
+}
+.discover2{
+    color: var(--color-gray-500);
+}

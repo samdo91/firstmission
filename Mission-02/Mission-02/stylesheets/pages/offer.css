@@ -1,0 +1,140 @@
+/* 오늘의 쇼핑 제안 */
+:root {
+    --color-back: #181818;
+    --color-white: #FFFFFF;
+    --color-gray-100: #F3F3F3;
+    --color-gray-200: #E7E7E7;
+    --color-gray-300: #DCDCDC;
+    --color-gray-400: #D0D0D0;
+    --color-gray-500: #C4C4C4;
+    --color-red-500: #E52330;
+    --base-size: 10px;
+    --font-family: 'Noto Sans KR', sans-serif;
+
+}
+
+body {
+    box-sizing: border-box;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 100px;
+    color: var(--color-black);
+    background: var(--color-white);
+
+    color: var(--color-black);
+
+
+}
+
+.box1 {
+    width: 1022px;
+    height: 354px;
+}
+
+
+.picbox {
+    display: flex;
+    margin-left: 4px;
+    text-align: left;
+}
+
+.pic {
+    position: relative;
+    width: 200px;
+    height: 270px;
+    background: #FFFFFF;
+    text-align: center;
+}
+
+.goods {
+    left: 20px;
+    top: 14px;
+
+
+}
+
+.free {
+    color: var(--color-gray-500)
+}
+
+.thirty_percent {
+    background-color: var(--color-red-500);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 3px 10px;
+    gap: 10px;
+    position: absolute;
+    width: 53px;
+    height: 30px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px 0px 4px 0px;
+    color: #FFFFFF;
+}
+
+.ten_percent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 3px 10px;
+    gap: 10px;
+    position: absolute;
+    width: 53px;
+    height: 30px;
+    left: 0px;
+    top: 0px;
+    background-color: var(--color-red-500);
+    border-radius: 0px 0px 4px 0px;
+    color: #FFFFFF;
+}
+
+.twenty_five_percent {
+    flex-direction: row;
+    padding: 3px 10px;
+    gap: 10px;
+    position: absolute;
+    width: 53px;
+    height: 30px;
+    left: 0px;
+    top: 0px;
+    background-color: var(--color-red-500);
+    border-radius: 0px 0px 4px 0px;
+    color: white
+}
+
+.star_nain {
+    width: 68px;
+    height: 12px;
+    background-position: 0cm 0.68cm;
+    background-image: url("/1차 과제/Mission-02/Mission-02/assets/sprites/rating-stars.png")
+}
+
+.txts {
+    text-align: left;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+}
+
+.star_eight {
+    width: 68px;
+    height: 12px;
+    left: 0px;
+    top: 31px;
+    background-position: 0cm 1cm;
+    background-image: url("/1차 과제/Mission-02/Mission-02/assets/sprites/rating-stars.png")
+}
+
+.star_ten {
+    width: 68px;
+    height: 12px;
+    left: 0px;
+    top: 31px;
+    background-position: bottom;
+    background-image: url("/1차 과제/Mission-02/Mission-02/assets/sprites/rating-stars.png")
+}
+
