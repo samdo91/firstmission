@@ -10,8 +10,8 @@ body {
  * 이를 방지하기 위해 미리 css에 body {visibility: 'hidden'}을 추가해 두었다.
  * active 클래스가 추가된 이후에 body를 표시해서 새로고침 시 nav 요소와 main 요소의 위치가 이동하는 움직임이 사용자에게 보이지 않도록 한다.
  */
- .body {
-  
+ body {
+
   visibility: hidden;
 }
 

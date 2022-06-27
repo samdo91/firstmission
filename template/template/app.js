@@ -1,5 +1,4 @@
 // do something!
-
 const toggle = document.querySelector(".toggle")
 const nav = document.querySelector("nav")
 const body = document.querySelector("body")
@@ -10,12 +9,19 @@ const body = document.querySelector("body")
 
 if (localStorage.getItem('active') !== null) {
      nav.classList.add('active')
-     //   body.classList.add('view')
-} else {
-     //  body.classList.add('view')
-}
+     setTimeout(function () {
+         console.log("3초");
+          body.classList.add('view');
+     }, 500);
 
-body.classList.add('view')
+
+} else {
+     setTimeout(function () {
+          body.classList.add('view');
+          console.log("3초");
+     }, 500);
+
+}
 
 
 toggle.addEventListener('click', togglefuntion)
