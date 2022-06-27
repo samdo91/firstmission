@@ -1,16 +1,27 @@
 
+ 
 
 
 
+const AnalogClock = $contaier =>
+{let clock= $contaier
 
-const AnalogClock = $container => {
-  // do somethin  g!
-  const clock = document.querySelector(".analog-clock")
+
+  clock_hands(clock)
+  time_times(clock)
+     setInterval( function (){  degcount (clock)}, 1000)
+
+};
+
+function clock_hands($contaier) {
+   let clock=$contaier
+
+
   const hand_hour = document.createElement("div")
   hand_hour.classList.add("hand")
   hand_hour.classList.add("hour")
   clock.appendChild(hand_hour)
-
+  
 
 
   const hand_minute = document.createElement("div")
@@ -25,30 +36,31 @@ const AnalogClock = $container => {
   hand_second.classList.add("second")
   clock.appendChild(hand_second)
 
-  time_times()
-  degcount()
-  setInterval(degcount, 1000)
 
-};
+}
 
 
 
-const time_times = $container => {
-  const clock = document.querySelector(".analog-clock")
+function time_times($contaier) {
+  let clock=$contaier
+  console.log(clock)
+
+
   for (let i = 1; i <= 12; i++) {
     const time_time = document.createElement("div");
     time_time.classList.add("time");
     time_time.innerHTML = "|";
     time_time.classList.add("time" + i);
     clock.appendChild(time_time);
+   
   }
 }
 
-const degcount = $container => {
-  let second = document.querySelector(".hand.second");
-  let minute = document.querySelector(".hand.minute");
-  let hour = document.querySelector(".hand.hour");
-
+function degcount ($contaier) {
+  let second = $contaier.querySelector(".hand.second");
+  let minute = $contaier.querySelector(".hand.minute");
+  let hour = $contaier.querySelector(".hand.hour");
+ 
 
   let secondnum = Number(getComputedStyle(second).getPropertyValue("--deg"));
   let minutenum = Number(getComputedStyle(minute).getPropertyValue("--deg"));
@@ -65,4 +77,10 @@ const degcount = $container => {
   minute.style.setProperty('--deg', minutenum)
   hour.style.setProperty('--deg', hournum)
 }
+
+
+
+//  console.log(AnalogClock(clock))
+//  clock.forEach((clock) =>AnalogClock(clock))
 export default AnalogClock;
+
